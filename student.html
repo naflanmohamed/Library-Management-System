@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome Student!</h1>
+        <div class="dashboard">
+            <h2>Currently Borrowed Books: </h2>
+            <ul id="borrowedList">   
+            </ul>
+            <h2>List of Returned Books: </h2>
+            <ul id="returnedList">       
+            </ul>
+            <h2>Request a Book</h2>
+            <form id="requestBookForm">
+                <label for="bookTitle">Book Title:</label>
+                <input type="text" id="bookTitle" name="bookTitle" required>
+                <button type="submit">Request</button>
+            </form>
+        </div>
+    </div>
+    <script src="student_script.js"></script>
+</body>
+</html>
