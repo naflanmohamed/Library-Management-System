@@ -1,5 +1,7 @@
 # Library Management System
 
+[🔗 Live Demo](https://naflanmohamed.github.io/Library-Management-System/)
+
 Welcome to my Library Management System project repository! This application provides a user-friendly interface for managing library operations, including book cataloging, user registration, and role-based dashboards for students, teachers, and administrators.
 
 ## Table of Contents
